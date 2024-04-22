@@ -2,7 +2,7 @@ function firstChar(text) {
   // your code here
 		let newtext = text.trim().split(" ");
     	
-    	ifwords.length === 0 || words[0] === "")){
+    	if (newtext.length === 0 || newtext[0] === ""){
     	    	console.log(`""`);
     	}else{
     	    console.log(newtext[0][0]);
