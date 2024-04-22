@@ -1,15 +1,10 @@
 function firstChar(text) {
   // your code here
-		let text = s.trim().split(" ");
-	console.log(text[0][0])
-
-
-
-
-	
+		let newtext = text.trim().split(" ");
+    	console.log(newtext[0][0])
 }
 
 // Do not change the code below
 
-//const text = prompt("Enter text:");
-//alert(firstChar(text));
+const text = prompt("Enter text:");
+alert(firstChar(text));
