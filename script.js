@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
-		let newWrd = s.split(" ");
-	console.log(newWrd[0][0])
+		let text = s.split(" ");
+	console.log(text[0][0])
 
 
 
