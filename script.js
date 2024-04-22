@@ -1,6 +1,6 @@
 function firstChar(text) {
   // your code here
-		let text = s.split(" ");
+		let text = s.trim().split(" ");
 	console.log(text[0][0])
 
 
